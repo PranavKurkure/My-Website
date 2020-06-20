@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Lato');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Bitter|Padauk|Ubuntu+Condensed|Fjalla+One');
+html
+{
+    scroll-behavior: smooth;
+}
+#page{
+    display: none;
+}
+.cnt{
+    height: 10px;
+    width: 10px;
+}
+.end
+{
+    width: 100%;
+    height: 90px;
+    padding: 3px;
+    color: white;
+    background-color: darkslateblue;
+    font-size: 17px;
+    text-align: center;
+}
+body
+{
+    
+    font-family: 'Lato', cursive;
+}
+.projs
+{
+    padding: 20px;
+     
+    height: 200px;
+}
+.moreproj
+{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.projss
+{
+    background-color: white;
+    padding: 15px;
+     -webkit-box-shadow: 0 0 20px #a6afbf;
+}
+.projhead
+{
+    font-size: 40px;
+}
+.projinfo
+{
+    
+    font-size: 20px;
+}
+#loader{
+    position: fixed;
+    padding-left: 40%;
+    padding-top: 10%;
+    font-size: 50px;
+    width: 500px;
+    display: flex;
+    z-index: 9999;
+    align-content: center;
+    text-align: center;
+    
+}
+.projs1
+{
+    height: 200px;
+    padding: 20px;
+}
+.togg
+{
+    font-size: 30px;
+    padding: 2px;
+   
+}
+.navbar
+{
+    background: #222f3e;
+    color: white;
+}
+.navbar-toggler-icon
+{
+    color: whitesmoke;
+  
+}
+.eduhed
+{
+    font-size: 60px;
+    margin-top: 50px;
+    
+}
+a
+{
+    color: inherit;
+}
+a:hover{
+    color: aliceblue;
+}
+.marks
+{
+    font-size: 20px;
+    color: red;
+}
+.deg
+{
+    font-size: 17px;
+    
+    margin-bottom: 10px;
+}
+.clg_name
+{
+    font-size: 23px;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 15px;
+}
+.btn-warning
+{
+    color: white;
+    padding: 3px;
+    margin-left: 20px;
+    
+    height: 47px;
+    width: 130px;
+    font-size: 23px;
+    
+}
+nav li
+{
+   
+    padding-left: 5px;
+    font-size: 25px;
+    opacity: 0.5;
+    margin-left: 25px;
+    
+}
+ul li
+{
+    padding-bottom: 0px;
+   
+}
+nav ul li
+{
+   
+    font-weight: bold;
+    color: white;
+}
+nav li:hover
+{
+   
+    opacity: 1;
+    background-color: green;
+    transition: 0.3s ease-in-out;
+}
+.info-2
+{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.wow
+{
+    visibility: hidden;
+}
+.intro1
+{
+    font-size: 30px;
+}
+.name1
+{
+    font-size: 45px;
+}
+img
+{
+    margin-top: 60px;
+    height: 300px;
+    width: 300px;
+    border-style: none;
+    border-radius: 25px;
+    border: 10px solid white;
+    
+}
+.header
+{
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ), url(back3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    width: 100%;
+    margin-top: 55px;
+    padding: 60px;
+    text-align: center;
+    
+    
+}
+.projects
+{
+    height: 880px;
+    padding: 85px;
+    background-color: #dff9fb;
+}
+#txt1{
+    font-size: 23px; 
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    
+}
+.cap
+{
+    font-size: 80px;
+    margin-right: 20px;
+}
+.education
+{
+    height: 755px;
+    text-align: center;
+   
+}
+.moved
+{
+    margin-top: 350px;
+}
+.fa-angle-double-down
+{
+    color: aliceblue;
+    font-size: 40px;
+    border: 5px ;
+    margin-top: 60px;
+}
+.down:hover
+{
+    font-size: 50px;
+}
+.cardss
+{
+    height: 350px;
+    border: 7px solid green;
+    border-radius: 35px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 25px;
+}
+.skilltech
+{
+    padding: 30px;
+    height: 125px;
+    font-size: 35px;
+    
+}
+.skilltech1
+{
+    padding: 30px;
+    height: 150px;
+    font-size: 45px;
+}
+.skillhead
+{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.skills
+{
+    padding-top: 55px;
+    padding-bottom: 10px;
+    height: 750px;
+    background-image: linear-gradient(#ecf0f1,#95a5a6,#8395a7);
+}
+.contact
+{
+    
+    padding-top: 65px;
+    height: 750px;
+}
+.contact-head
+{
+    margin-top: 20px;
+    font-size: 60px;
+    text-align: center;
+        font-size: 5em;
+    color: white;    
+}
+.contact-left
+{
+    background-image: linear-gradient(#a29bfe,#6c5ce7,#273c75,#192a56);;
+    height: 685px;
+    line-height: 650px;
+}
+.contact-right
+{
+  font-size: 60px;
+    height: 680px;
+    padding-left: 220px;
+    padding-top: 150px;
+}
+i
+{
+    margin-bottom: 25px;
+    margin-right: 25px;
+    
+}
+i:hover{
+    transform: scale(1.5);
+}
+
+.con-name : hover{
+    transform: scale(1.5);
+}
+.contact-right.a{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: black;
+}
+
+
+@media (min-width:400px) and (max-width: 900px)  
+{
+    .contact-right
+    {
+        font-size: 53px;
+        padding-left: 125px;
+        padding-top: 120px;
+    }
+    
+    #txt1{
+        font-size: 20px;
+    }
+    .eduhed
+    {
+        margin-left: 15px;
+        font-size: 40px;
+    }
+    .contact
+{
+    padding-top: 150px;
+    height: 800px;
+}
+    .fa-angle-double-down
+{
+    color: aliceblue;
+    font-size: 40px;
+    border: 5px ;
+    margin-top: 10px;
+}
+    .projects
+{
+    height: 2100px;
+    padding: 75px;
+}
+    .cardss
+    {
+      height: 340px;
+        margin-left: 20px; 
+        padding-bottom: 10px;
+    }
+    #loader
+    {
+        padding-left: 28%;
+        padding-top: 25%;
+    }
+    .header
+    {
+        text-align: center;
+        height: 960px;
+    }
+    .education
+    {
+        padding: 10px;
+        height: 1700px;
+        padding-right: 25px;
+        
+    }
+    .projs
+{
+    padding: 8px;
+    margin-top: 140px;
+   
+    height: 200px;
+}
+.moreproj
+{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.projss
+{
+    
+    padding: 8px;
+     -webkit-box-shadow: 0 0 20px #a6afbf;
+}
+.projhead
+{
+    font-size: 40px;
+}
+.projinfo
+{
+    
+    font-size: 20px;
+}
+    .wow
+{
+    visibility: hidden;
+}
+    .btn-warning
+    {
+        margin-left: 5px;
+        margin-top: 17px;
+        margin-bottom: 15px;
+    }
+    
+    .projs1
+    {
+        margin-top: 230px;
+        height: 200px;
+        padding: 8px;
+    }
+    .contact-head
+    {
+        font-size: 50px;
+    }
+    .contact-left
+    {
+        height: 400px;
+        line-height: 400px;
+        margin-top: 40px;
+    }
+    .contact
+    {
+        padding-top: 50px;
+        margin-bottom: 0px;
+    }
+    img
+    {
+        width: 200px;
+        height: 200px;
+        margin-top: 5px;   
+        margin-bottom: 15px;
+    }
+    .intro1
+    {
+        font-size: 25px;
+    }
+    .name1
+    {
+        margin-top: 5px;
+        font-size: 35px;
+    }
+    .skills
+    {
+        height: 1900px;
+    background-image: linear-gradient(#ecf0f1,#8395a7,#95a5a6);
+        
+    }
+    .end
+    {
+        margin-top: 300px;
+    }
+    
+}
+@media (min-width:100px) and (max-width: 399px)
+{
+    .projs1
+    {
+        padding: 5px;
+        margin-bottom: 50px;
+    }
+    .header
+    {
+        height: 1400px;
+    }
+    .skills
+    {
+        height: 1900px;
+    background-image: linear-gradient(#ecf0f1,#8395a7,#95a5a6);
+        
+    }
+    .education
+    {
+        height: 1700px;
+    }
+  .eduhed
+    {
+       font-size: 30px; 
+    }
+     #loader
+    {
+        padding-left: 10%;
+        padding-top: 20%;
+    }
+    img
+    {
+        height: 175px;
+        width: 175px;
+        
+    }
+    .projects
+    {
+        height: 2000px;
+    }
+    .projs
+    {
+        padding: 5px;
+       margin-bottom: 180px; 
+    }
+    .projss
+    {
+        padding: 5px;
+    }
+    .cardss
+    {
+        margin-left: 9px;
+    }
+    .contact-right
+    {
+        font-size: 30px;
+        padding-left: 80px;
+        height: 450px;
+    }
+    .contact-left
+    {
+        font-size: 35px;
+        height: 250px;
+        line-height: 250px;
+    }
+    .contact
+    {
+        height: 800px;
+    }
+    .contact-head
+    {
+        font-size: 30px;
+    }
+    .moreproj
+{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+   
+    .projhead
+{
+    font-size: 30px;
+}
+    #loader
+    {
+        width: 100%;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 100px;
+    }
+    .end
+    {
+        margin-top: 100px;
+        font-size: 15px;
+    }
+    .contbut
+    {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 17px;
+    }
+    .resbut
+    {
+        margin-left: 17px;
+    }
+}
